@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rice & Spice</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fredoka">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="nav">
+        <img src="resources/logo.png" alt="logo" class="logo">
+        <div class="nav-links">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#recipes" class="nav-link">Recipes</a>
+            <a href="#meals" class="nav-link">Meals</a>
+            <a href="#" class="nav-link">Contact</a>
+            <a href="#" class="nav-link">
+                <img src="resources/search.svg" alt="search" class="search" onclick="">
+            </a>
+        </div>
+    </div>
+
+    <div class="main" id="home">
+
+        <div class="home">
+            <img src="resources/food.jpg" alt="food">
+            <div class="container">
+                <h1>
+                    37 DELICIOUS &<br>
+                    HEALTHY CASSEROLES
+                </h1>
+                <button>
+                    see them all
+                </button>
+            </div>
+        </div>
+
+        <div class="recipes" id="recipes">
+
+            <h1>
+                All The Recipes
+            </h1>
+
+            <div class="user-cards" data-user-cards-container></div>
+    
+            <template data-user-template>
+                <div class="card">
+                    <img src="food" alt="" class="image" data-image>
+                    <div class="header" data-header>Full Name</div>
+                    <div class="body" data-body>email@gmail.com</div>
+                </div>
+            </template>
+
+        </div>
+
+        <div class="meals" id="meals">
+
+            <h1>
+                Choose Your Meal
+            </h1>
+
+            <div class="container">
+
+                <figure>
+                    <img src="resources/meals/breakfast.jpg" alt="breakfast">
+                    <figcaption>
+                        <a href="#">
+                            breakfast
+                        </a>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="resources/meals/lunch.jpg" alt="lunch">
+                    <figcaption>
+                        <a href="#">
+                            lunch
+                        </a>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="resources/meals/dinner.jpg" alt="dinner">
+                    <figcaption>
+                        <a href="#">
+                            dinner
+                        </a>
+                    </figcaption>
+                </figure>
+
+                <figure>
+                    <img src="resources/meals/dessert.jpg" alt="dessert">
+                    <figcaption>
+                        <a href="#">
+                            dessert
+                        </a>
+                    </figcaption>
+                </figure>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="footer">
+        footer
+    </div>
+</body>
+</html>

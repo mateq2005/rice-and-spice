@@ -1,0 +1,116 @@
+[
+    {
+        "name": "Mango Sticky Rice",
+        "description": "A classic Thai dessert with sweet sticky rice and ripe mango slices.",
+        "ingredients": [
+            "1 cup glutinous rice",
+            "1 cup coconut milk",
+            "1/2 cup sugar",
+            "1/4 teaspoon salt",
+            "2 ripe mangoes, peeled and sliced",
+            "Sesame seeds for garnish"
+        ],
+        "instructions": [
+            "Rinse the glutinous rice until the water runs clear.",
+            "Cook the rice in a steamer until tender.",
+            "In a saucepan, heat coconut milk, sugar, and salt until sugar dissolves.",
+            "Pour the coconut mixture over the cooked rice and let it soak for 30 minutes.",
+            "Serve the sticky rice with mango slices on top and sprinkle with sesame seeds."
+        ]
+    },
+    {
+        "name": "Matcha Green Tea Mochi",
+        "description": "Delicate Japanese mochi filled with sweetened matcha-flavored red bean paste.",
+        "ingredients": [
+            "1 cup mochiko (sweet rice flour)",
+            "1/4 cup sugar",
+            "1 cup water",
+            "1/2 cup sweetened red bean paste",
+            "2 tablespoons matcha powder",
+            "Cornstarch for dusting"
+        ],
+        "instructions": [
+            "Mix mochiko, sugar, and matcha powder in a bowl.",
+            "Add water gradually, stirring to form a smooth batter.",
+            "Microwave the batter in a greased dish until set.",
+            "Cut into squares, fill with red bean paste, and dust with cornstarch."
+        ]
+    },
+    {
+        "name": "Pandan Chiffon Cake",
+        "description": "A light and fluffy Southeast Asian cake with the fragrant aroma of pandan leaves.",
+        "ingredients": [
+            "2 cups cake flour",
+            "1 cup sugar",
+            "1 tablespoon pandan extract",
+            "1/2 cup coconut milk",
+            "1/4 cup vegetable oil",
+            "6 eggs, separated",
+            "1 teaspoon baking powder"
+        ],
+        "instructions": [
+            "Preheat oven to 325°F (163°C).",
+            "In a bowl, whisk together flour, sugar, baking powder, and a pinch of salt.",
+            "In another bowl, mix pandan extract, coconut milk, oil, and egg yolks.",
+            "Fold wet ingredients into the dry ingredients.",
+            "In a separate bowl, beat egg whites until stiff peaks form, then fold into the batter.",
+            "Pour into an ungreased tube pan and bake for 55-60 minutes."
+        ]
+    },
+    {
+        "name": "Taiwanese Pineapple Cake",
+        "description": "Buttery shortcrust pastry filled with sweet pineapple jam, a popular treat in Taiwan.",
+        "ingredients": [
+            "2 cups all-purpose flour",
+            "1 cup unsalted butter, softened",
+            "1/2 cup powdered sugar",
+            "1 cup pineapple jam",
+            "1/4 teaspoon salt"
+        ],
+        "instructions": [
+            "Preheat oven to 350°F (175°C).",
+            "In a bowl, cream together butter, powdered sugar, and salt.",
+            "Gradually add flour until a soft dough forms.",
+            "Divide the dough, press half into a pan, spread pineapple jam, and top with remaining dough.",
+            "Bake for 25-30 minutes, until golden brown.",
+            "Cut into squares once cooled."
+        ]
+    },
+    {
+        "name": "Filipino Halo-Halo",
+        "description": "A colorful and refreshing shaved ice dessert with a mix of fruits, jellies, and sweet beans.",
+        "ingredients": [
+            "Shaved ice",
+            "Evaporated milk",
+            "Sweetened fruits (bananas, jackfruit, mango)",
+            "Sweet beans (red mung beans, garbanzos)",
+            "Leche flan (caramel custard)",
+            "Ube (purple yam) ice cream",
+            "Jellies (nata de coco, agar agar)"
+        ],
+        "instructions": [
+            "Fill a glass with shaved ice.",
+            "Layer with sweetened fruits, sweet beans, leche flan, and jellies.",
+            "Drizzle with evaporated milk and top with a scoop of ube ice cream."
+        ]
+    },
+    {
+        "name": "Indian Gulab Jamun",
+        "description": "Soft and sweet fried dough balls soaked in cardamom-infused sugar syrup.",
+        "ingredients": [
+            "1 cup milk powder",
+            "1/4 cup all-purpose flour",
+            "1/4 cup ghee (clarified butter)",
+            "1/4 cup milk",
+            "1/4 teaspoon baking soda",
+            "Oil for frying",
+            "For the sugar syrup: 1 cup sugar, 1/2 cup water, cardamom pods"
+        ],
+        "instructions": [
+            "In a bowl, mix milk powder, flour, ghee, baking soda, and milk to form a dough.",
+            "Divide into small balls and deep-fry until golden brown.",
+            "In a separate saucepan, make a sugar syrup by boiling sugar, water, and cardamom pods.",
+            "Soak the fried dough balls in the sugar syrup for a few hours before serving."
+        ]
+    }
+]
