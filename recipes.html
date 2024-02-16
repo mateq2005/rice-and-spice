@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rice & Spice</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fredoka">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="nav">
+        <img src="resources/logo.png" alt="logo" class="logo">
+        <div class="nav-links">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="recipes.html" class="nav-link">Recipes</a>
+            <a href="index.html#meals" class="nav-link">Meals</a>
+            <a href="#" class="nav-link" id="contact">Contact</a>
+            <a href="#" class="nav-link">
+                <img src="resources/search.svg" alt="search" class="search" onclick="">
+            </a>
+        </div>
+    </div>
+
+    <div class="main">
+
+        <div class="recipes" id="recipes">
+
+            <h1>
+                All The Recipes
+            </h1>
+
+            <div class="user-cards" data-user-cards-container></div>
+    
+            <template data-user-template>
+                <div class="card">
+                    <img src="food" alt="" class="image" data-image>
+                    <div class="header" data-header>Full Name</div>
+                    <div class="body" data-body>email@gmail.com</div>
+                </div>
+            </template>
+
+        </div>
+
+    </div>
+    <div class="footer">
+        <div class="footer-links">
+            <a href="index.html" class="footer-link">Home</a>
+            <a href="recipes.html" class="footer-link">Recipes</a>
+            <a href="index.html#meals" class="footer-link">Meals</a>
+            <a href="#" class="footer-link">Contact</a>
+            <a href="#" class="footer-link">About</a>
+        </div>
+        <div class="copyright">&copy; Rice&Spice</div>
+    </div>
+</body>
+</html>

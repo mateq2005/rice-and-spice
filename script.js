@@ -2,7 +2,7 @@ const userCardTemplate = document.querySelector("[data-user-template]");
 const userCardConatiner = document.querySelector("[data-user-cards-container]");
 const searchInput = document.querySelector("[data-search]");
 
-fetch(``)
+fetch(`https://mateq2005.github.io/rice-and-spice/resources/recipes/breakfast/breakfast.json`)
     .then(res => res.json())
     .then(data => {
         users = data.map(user => {
@@ -22,3 +22,7 @@ fetch(``)
             }
         });
     });
+
+const email = `mailto:mateusz.banaszczyk.dg@gmail.com`;
+const contact = document.getElementById("contact");
+contact.href = email;

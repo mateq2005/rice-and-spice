@@ -13,47 +13,38 @@
     <div class="nav">
         <img src="resources/logo.png" alt="logo" class="logo">
         <div class="nav-links">
-            <a href="#home" class="nav-link">Home</a>
-            <a href="#recipes" class="nav-link">Recipes</a>
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="recipes.html" class="nav-link">Recipes</a>
             <a href="#meals" class="nav-link">Meals</a>
-            <a href="#" class="nav-link">Contact</a>
+            <a href="#" class="nav-link" id="contact">Contact</a>
             <a href="#" class="nav-link">
                 <img src="resources/search.svg" alt="search" class="search" onclick="">
             </a>
         </div>
     </div>
 
-    <div class="main" id="home">
+    <div class="header">
+        <h1>
+            Asian Culinary Delights
+        </h1>
+        <button>
+            see them all
+        </button>
+    </div>
+
+    <div class="main">
 
         <div class="home">
-            <img src="resources/food.jpg" alt="food">
+            <img class="food" src="resources/food.jpg" alt="food">
             <div class="container">
                 <h1>
-                    37 DELICIOUS &<br>
-                    HEALTHY CASSEROLES
+                    Savor Authentic Asian<br>
+                    Culinary Delights
                 </h1>
                 <button>
                     see them all
                 </button>
             </div>
-        </div>
-
-        <div class="recipes" id="recipes">
-
-            <h1>
-                All The Recipes
-            </h1>
-
-            <div class="user-cards" data-user-cards-container></div>
-    
-            <template data-user-template>
-                <div class="card">
-                    <img src="food" alt="" class="image" data-image>
-                    <div class="header" data-header>Full Name</div>
-                    <div class="body" data-body>email@gmail.com</div>
-                </div>
-            </template>
-
         </div>
 
         <div class="meals" id="meals">
@@ -65,7 +56,7 @@
             <div class="container">
 
                 <figure>
-                    <img src="resources/meals/breakfast.jpg" alt="breakfast">
+                    <img src="resources/recipes/breakfast/breakfast.jpg" alt="breakfast">
                     <figcaption>
                         <a href="#">
                             breakfast
@@ -74,7 +65,7 @@
                 </figure>
 
                 <figure>
-                    <img src="resources/meals/lunch.jpg" alt="lunch">
+                    <img src="resources/recipes/lunch/lunch.jpg" alt="lunch">
                     <figcaption>
                         <a href="#">
                             lunch
@@ -83,7 +74,7 @@
                 </figure>
 
                 <figure>
-                    <img src="resources/meals/dinner.jpg" alt="dinner">
+                    <img src="resources/recipes/dinner/dinner.jpg" alt="dinner">
                     <figcaption>
                         <a href="#">
                             dinner
@@ -92,7 +83,7 @@
                 </figure>
 
                 <figure>
-                    <img src="resources/meals/dessert.jpg" alt="dessert">
+                    <img src="resources/recipes/dessert/dessert.jpg" alt="dessert">
                     <figcaption>
                         <a href="#">
                             dessert
@@ -106,7 +97,14 @@
 
     </div>
     <div class="footer">
-        footer
+        <div class="footer-links">
+            <a href="#" class="footer-link">Home</a>
+            <a href="#recipes" class="footer-link">Recipes</a>
+            <a href="#meals" class="footer-link">Meals</a>
+            <a href="#" class="footer-link">Contact</a>
+            <a href="#" class="footer-link">About</a>
+        </div>
+        <div class="copyright">&copy; Rice&Spice</div>
     </div>
 </body>
 </html>
