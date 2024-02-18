@@ -1,0 +1,72 @@
+.meals {
+    
+    position: relative;
+
+    h1 {
+        font-size: 4em;
+        color: rgb(30, 30, 30);
+        text-transform: uppercase;
+        text-align: center;
+        margin-bottom: 5vh;
+    }
+
+    .container {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+
+        figure {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            img {
+                max-width: 15vw;
+                border-radius: 50%;
+                box-shadow: 0 0 1vw gray;
+            }
+
+            figcaption {
+
+                text-align: center;
+                padding: 1vw;
+
+                a {
+                    font-size: 1.5em;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    
+    .meals {
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 2.5vh;
+        }
+        .container {
+            flex-wrap: wrap;
+
+            figure {
+                width: 30vw;
+                align-items: center;
+
+                img {
+                    min-width: 30vw;
+                }
+            }
+
+            figcaption {
+                font-size: 1em;
+            }
+        }
+    }
+}
