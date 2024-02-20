@@ -1,4 +1,4 @@
-#ISC License
+# ISC License
 
 Copyright 2024 @mateq2005
 
