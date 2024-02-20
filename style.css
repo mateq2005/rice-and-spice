@@ -185,27 +185,27 @@ html {
   text-transform: uppercase;
   text-align: center;
 }
-.recipes .user-cards {
+.recipes .recipe-cards {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
 }
-.recipes .user-cards .card {
+.recipes .recipe-cards .recipe {
   padding: 1vw;
   margin: 1vw;
 }
-.recipes .user-cards .card .image {
+.recipes .recipe-cards .recipe .image {
   width: 20vw;
   height: auto;
   border-radius: 5%;
   box-shadow: 0 0 1vw gray;
 }
-.recipes .user-cards .card .header {
+.recipes .recipe-cards .recipe .header {
   font-size: 2em;
 }
-.recipes .user-cards .card .body {
+.recipes .recipe-cards .recipe .body {
   font-size: 1.25em;
 }
 
@@ -217,7 +217,7 @@ html {
   .recipes .image {
     width: 80vw;
   }
-  .recipes .card {
+  .recipes .recipe {
     width: 80vw;
   }
 }
