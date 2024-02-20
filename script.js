@@ -1,90 +1,35 @@
-const userCardTemplate = document.querySelector("[data-user-template]");
-const userCardConatiner = document.querySelector("[data-user-cards-container]");
-const searchInput = document.querySelector("[data-search]");
+const recipeCardTemplate = document.querySelector("[data-recipe-template]");
+const recipeCardConatiner = document.querySelector("[data-recipe-cards-container]");
 
-fetch(`https://mateq2005.github.io/rice-and-spice/resources/recipes/breakfast.json`)
-    .then(res => res.json())
-    .then(data => {
-        users = data.map(user => {
-            const card = userCardTemplate.content.cloneNode(true).children[0];
+async function breakfast() {
+    try {
+
+        const response = await fetch('https://mateq2005.github.io/rice-and-spice/resources/recipes/breakfast.json')
+        const data = await response.json();
+
+        users = data.map(recipe => {
+            const card = recipeCardTemplate.content.cloneNode(true).children[0];
             const image = card.querySelector("[data-image]");
             const header = card.querySelector("[data-header]");
             const body = card.querySelector("[data-body]");
-            image.src = user.image;
-            header.textContent = user.name;
-            body.textContent = user.description;
-            userCardConatiner.append(card);
+            image.src = recipe.image;
+            header.textContent = recipe.name;
+            body.textContent = recipe.description;
+            recipeCardConatiner.append(card);
             return {
-                image: user.image,
-                name: user.name,
-                description: user.description,
+                image: recipe.image,
+                name: recipe.name,
+                description: recipe.description,
                 element: card 
-            }
+            };
         });
-    });
 
-fetch(`https://mateq2005.github.io/rice-and-spice/resources/recipes/lunch.json`)
-    .then(res => res.json())
-    .then(data => {
-        users = data.map(user => {
-            const card = userCardTemplate.content.cloneNode(true).children[0];
-            const image = card.querySelector("[data-image]");
-            const header = card.querySelector("[data-header]");
-            const body = card.querySelector("[data-body]");
-            image.src = user.image;
-            header.textContent = user.name;
-            body.textContent = user.description;
-            userCardConatiner.append(card);
-            return {
-                image: user.image,
-                name: user.name,
-                description: user.description,
-                element: card 
-            }
-        });
-    });
+        } catch (error) {
+            console.error('Error fetching data:', error);
+        };
+};
 
-fetch(`https://mateq2005.github.io/rice-and-spice/resources/recipes/dinner.json`)
-    .then(res => res.json())
-    .then(data => {
-        users = data.map(user => {
-            const card = userCardTemplate.content.cloneNode(true).children[0];
-            const image = card.querySelector("[data-image]");
-            const header = card.querySelector("[data-header]");
-            const body = card.querySelector("[data-body]");
-            image.src = user.image;
-            header.textContent = user.name;
-            body.textContent = user.description;
-            userCardConatiner.append(card);
-            return {
-                image: user.image,
-                name: user.name,
-                description: user.description,
-                element: card 
-            }
-        });
-    });
-
-fetch(`https://mateq2005.github.io/rice-and-spice/resources/recipes/dessert.json`)
-    .then(res => res.json())
-    .then(data => {
-        users = data.map(user => {
-            const card = userCardTemplate.content.cloneNode(true).children[0];
-            const image = card.querySelector("[data-image]");
-            const header = card.querySelector("[data-header]");
-            const body = card.querySelector("[data-body]");
-            image.src = user.image;
-            header.textContent = user.name;
-            body.textContent = user.description;
-            userCardConatiner.append(card);
-            return {
-                image: user.image,
-                name: user.name,
-                description: user.description,
-                element: card 
-            }
-        });
-    });
+breakfast();
 
 const email = `mailto:mateusz.banaszczyk.dg@gmail.com`;
 const contact = document.getElementById("contact");
