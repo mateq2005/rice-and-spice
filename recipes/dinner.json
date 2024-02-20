@@ -1,0 +1,134 @@
+[
+    {
+        "name": "Pad Thai",
+        "description": "A classic Thai stir-fried noodle dish with a perfect balance of sweet, sour, and salty flavors.",
+        "image": "https://hips.hearstapps.com/hmg-prod/images/pad-thai-index-6477629462a38.jpg?crop=0.6666666666666666xw:1xh;center,top&resize=1200:*",
+        "ingredients": [
+            "8 oz rice noodles",
+            "2 tablespoons vegetable oil",
+            "2 cloves garlic, minced",
+            "1 cup tofu, diced",
+            "2 eggs, lightly beaten",
+            "1 cup bean sprouts",
+            "1/2 cup peanuts, chopped",
+            "3 green onions, chopped",
+            "1 lime, cut into wedges"
+        ],
+        "instructions": [
+            "Soak rice noodles in warm water until softened.",
+            "Heat oil in a wok, add garlic and tofu, stir-fry until golden.",
+            "Push tofu to one side, pour beaten eggs into the wok, scramble and mix with tofu.",
+            "Add soaked noodles, bean sprouts, and peanuts. Stir-fry until well combined.",
+            "Toss in green onions and lime wedges. Serve hot."
+        ]
+    },
+    {
+        "name": "Sushi Rolls",
+        "description": "Delicious Japanese sushi rolls filled with a variety of ingredients.",
+        "image": "https://www.justonecookbook.com/wp-content/uploads/2020/06/Dragon-Roll-0286-I-500x375.jpg",
+        "ingredients": [
+            "2 cups sushi rice, cooked and seasoned",
+            "Nori sheets",
+            "Assorted fish (salmon, tuna, shrimp), sliced",
+            "Avocado, sliced",
+            "Cucumber, julienned",
+            "Soy sauce and wasabi for serving"
+        ],
+        "instructions": [
+            "Place a bamboo sushi rolling mat on a flat surface, put a sheet of nori on top.",
+            "Spread a layer of sushi rice on the nori, leaving a small border at the top.",
+            "Arrange slices of fish, avocado, and cucumber along the bottom edge of the rice.",
+            "Roll the sushi tightly using the mat, seal the edge with water.",
+            "Slice the roll into bite-sized pieces. Serve with soy sauce and wasabi."
+        ]
+    },
+    {
+        "name": "Chicken Curry",
+        "description": "A fragrant and flavorful South Asian chicken curry with a rich blend of spices.",
+        "image": "https://www.slimmingeats.com/blog/wp-content/uploads/2017/08/chinese-chicken-curry-fakeway-3-720x540.jpg",
+        "ingredients": [
+            "1.5 lbs chicken, cut into pieces",
+            "2 tablespoons curry powder",
+            "1 onion, finely chopped",
+            "3 cloves garlic, minced",
+            "1 can coconut milk",
+            "2 potatoes, peeled and diced",
+            "1 cup peas",
+            "Salt and pepper to taste",
+            "Fresh cilantro for garnish"
+        ],
+        "instructions": [
+            "In a pot, heat oil and sauté onion and garlic until fragrant.",
+            "Add curry powder and cook for a minute. Add chicken and brown on all sides.",
+            "Pour in coconut milk, add potatoes and peas. Season with salt and pepper.",
+            "Simmer until chicken is cooked through and potatoes are tender.",
+            "Garnish with fresh cilantro before serving."
+        ]
+    },
+    {
+        "name": "Bibimbap",
+        "description": "A Korean mixed rice dish topped with a variety of seasoned vegetables, meat, and a fried egg.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Dolsot-bibimbap.jpg",
+        "ingredients": [
+            "2 cups cooked rice",
+            "1 cup carrots, julienned",
+            "1 cup spinach, blanched",
+            "1 cup bean sprouts, blanched",
+            "1 cup shiitake mushrooms, sliced and sautéed",
+            "1 cup beef bulgogi, cooked",
+            "Sesame oil and gochujang sauce for drizzling",
+            "Fried eggs for topping"
+        ],
+        "instructions": [
+            "Divide the cooked rice into serving bowls.",
+            "Arrange carrots, spinach, bean sprouts, mushrooms, and beef on top of the rice.",
+            "Drizzle with sesame oil and gochujang sauce to taste.",
+            "Top each bowl with a fried egg. Mix everything together before eating."
+        ]
+    },
+    {
+        "name": "Tom Yum Soup",
+        "description": "A hot and sour Thai soup with a delicious combination of shrimp, mushrooms, and aromatic herbs.",
+        "image": "https://www.thespruceeats.com/thmb/_6FHZOPt5qp88GiTG3UIDptikFc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/tom-yum-soup-best-3217653-Hero_01-1bf2ac7948fc407c97db9ee2d1aa2b9b.jpg",
+        "ingredients": [
+            "4 cups chicken broth",
+            "200g shrimp, peeled and deveined",
+            "1 cup mushrooms, sliced",
+            "3 stalks lemongrass, bruised",
+            "3 kaffir lime leaves",
+            "1 tablespoon fish sauce",
+            "1 tablespoon lime juice",
+            "1 teaspoon chili paste",
+            "Fresh cilantro for garnish"
+        ],
+        "instructions": [
+            "In a pot, bring chicken broth to a boil. Add lemongrass and kaffir lime leaves.",
+            "Add shrimp, mushrooms, fish sauce, lime juice, and chili paste. Simmer until shrimp is cooked.",
+            "Remove lemongrass and lime leaves. Adjust seasoning if needed.",
+            "Garnish with fresh cilantro before serving."
+        ]
+    },
+    {
+        "name": "Beef and Broccoli Stir-Fry",
+        "description": "A quick and tasty Chinese stir-fry featuring tender slices of beef and crisp broccoli in a savory sauce.",
+        "image": "https://realfood.tesco.com/media/images/1400x919-Crispy-beef-and-broccoli-stir-fry-ec31e6b7-5468-474e-8e0a-8c4cc909ce58-0-1400x919.jpg",
+        "ingredients": [
+            "1 lb flank steak, thinly sliced",
+            "2 cups broccoli florets",
+            "3 tablespoons soy sauce",
+            "2 tablespoons oyster sauce",
+            "1 tablespoon hoisin sauce",
+            "2 cloves garlic, minced",
+            "1 teaspoon ginger, grated",
+            "2 tablespoons vegetable oil",
+            "Cooked rice for serving"
+        ],
+        "instructions": [
+            "In a bowl, mix soy sauce, oyster sauce, and hoisin sauce. Set aside.",
+            "Heat oil in a wok, stir-fry garlic and ginger until fragrant.",
+            "Add sliced beef and cook until browned. Add broccoli and sauce mixture.",
+            "Stir-fry until broccoli is tender and the sauce coats the beef and broccoli.",
+            "Serve over cooked rice."
+        ]
+    }
+]
