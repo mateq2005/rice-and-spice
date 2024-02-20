@@ -13,8 +13,7 @@
     "sass": "^1.71.0"
   },
   "repository": {
-    "type": "git",
-    "url": "https://github.com/facebook/react.git",
-    "directory": "packages/react-dom"
+    "type": "github",
+    "url": "https://github.com/mateq2005/rice-and-spice"
   }
 }
