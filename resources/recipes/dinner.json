@@ -2,6 +2,7 @@
     {
         "name": "Pad Thai",
         "description": "A classic Thai stir-fried noodle dish with a perfect balance of sweet, sour, and salty flavors.",
+        "image": "https://hips.hearstapps.com/hmg-prod/images/pad-thai-index-6477629462a38.jpg?crop=0.6666666666666666xw:1xh;center,top&resize=1200:*",
         "ingredients": [
             "8 oz rice noodles",
             "2 tablespoons vegetable oil",
@@ -24,6 +25,7 @@
     {
         "name": "Sushi Rolls",
         "description": "Delicious Japanese sushi rolls filled with a variety of ingredients.",
+        "image": "https://www.justonecookbook.com/wp-content/uploads/2020/06/Dragon-Roll-0286-I-500x375.jpg",
         "ingredients": [
             "2 cups sushi rice, cooked and seasoned",
             "Nori sheets",
@@ -43,6 +45,7 @@
     {
         "name": "Chicken Curry",
         "description": "A fragrant and flavorful South Asian chicken curry with a rich blend of spices.",
+        "image": "https://www.slimmingeats.com/blog/wp-content/uploads/2017/08/chinese-chicken-curry-fakeway-3-720x540.jpg",
         "ingredients": [
             "1.5 lbs chicken, cut into pieces",
             "2 tablespoons curry powder",
@@ -65,6 +68,7 @@
     {
         "name": "Bibimbap",
         "description": "A Korean mixed rice dish topped with a variety of seasoned vegetables, meat, and a fried egg.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Dolsot-bibimbap.jpg",
         "ingredients": [
             "2 cups cooked rice",
             "1 cup carrots, julienned",
@@ -85,6 +89,7 @@
     {
         "name": "Tom Yum Soup",
         "description": "A hot and sour Thai soup with a delicious combination of shrimp, mushrooms, and aromatic herbs.",
+        "image": "https://www.thespruceeats.com/thmb/_6FHZOPt5qp88GiTG3UIDptikFc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/tom-yum-soup-best-3217653-Hero_01-1bf2ac7948fc407c97db9ee2d1aa2b9b.jpg",
         "ingredients": [
             "4 cups chicken broth",
             "200g shrimp, peeled and deveined",
@@ -106,6 +111,7 @@
     {
         "name": "Beef and Broccoli Stir-Fry",
         "description": "A quick and tasty Chinese stir-fry featuring tender slices of beef and crisp broccoli in a savory sauce.",
+        "image": "https://realfood.tesco.com/media/images/1400x919-Crispy-beef-and-broccoli-stir-fry-ec31e6b7-5468-474e-8e0a-8c4cc909ce58-0-1400x919.jpg",
         "ingredients": [
             "1 lb flank steak, thinly sliced",
             "2 cups broccoli florets",

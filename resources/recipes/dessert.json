@@ -2,6 +2,7 @@
     {
         "name": "Mango Sticky Rice",
         "description": "A classic Thai dessert with sweet sticky rice and ripe mango slices.",
+        "image": "https://cdn.jwplayer.com/v2/media/oaULnCZz/poster.jpg",
         "ingredients": [
             "1 cup glutinous rice",
             "1 cup coconut milk",
@@ -21,6 +22,7 @@
     {
         "name": "Matcha Green Tea Mochi",
         "description": "Delicate Japanese mochi filled with sweetened matcha-flavored red bean paste.",
+        "image": "https://www.justonecookbook.com/wp-content/uploads/2019/07/Green-Tea-Mochi-9189-I.jpg",
         "ingredients": [
             "1 cup mochiko (sweet rice flour)",
             "1/4 cup sugar",
@@ -39,6 +41,7 @@
     {
         "name": "Pandan Chiffon Cake",
         "description": "A light and fluffy Southeast Asian cake with the fragrant aroma of pandan leaves.",
+        "image": "https://thezonghan.com/wp-content/uploads/2015/09/IMG_9618Edited.jpg",
         "ingredients": [
             "2 cups cake flour",
             "1 cup sugar",
@@ -60,6 +63,7 @@
     {
         "name": "Taiwanese Pineapple Cake",
         "description": "Buttery shortcrust pastry filled with sweet pineapple jam, a popular treat in Taiwan.",
+        "image": "https://lh3.googleusercontent.com/proxy/7XiDr-nzgffKqXS26yxWUx1_w307yVi9yMUH30C4tnKcwY6EptKTaJi870NPuxdJ2pY4TObRsWIbeHmvhlY7ns0PlPTFMSGbks6PNK4-nV263cMv0RBZqy5Bo_6i54_CkUy6L5ULmN_ul2j5luqXr0AShNFVgmVqN0rha57H",
         "ingredients": [
             "2 cups all-purpose flour",
             "1 cup unsalted butter, softened",
@@ -79,6 +83,7 @@
     {
         "name": "Filipino Halo-Halo",
         "description": "A colorful and refreshing shaved ice dessert with a mix of fruits, jellies, and sweet beans.",
+        "image": "https://static01.nyt.com/images/2023/11/28/multimedia/ND-Halo-Halo-cglf/ND-Halo-Halo-cglf-superJumbo.jpg",
         "ingredients": [
             "Shaved ice",
             "Evaporated milk",
@@ -97,6 +102,7 @@
     {
         "name": "Indian Gulab Jamun",
         "description": "Soft and sweet fried dough balls soaked in cardamom-infused sugar syrup.",
+        "image": "https://soulfulpalate.com/wp-content/uploads/2019/05/IMG_3794.jpg",
         "ingredients": [
             "1 cup milk powder",
             "1/4 cup all-purpose flour",

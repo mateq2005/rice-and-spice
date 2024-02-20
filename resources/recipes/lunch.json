@@ -2,6 +2,7 @@
     {
         "name": "Chicken Teriyaki",
         "description": "Delicious Japanese-style grilled chicken with teriyaki sauce.",
+        "image": "https://www.wellplated.com/wp-content/uploads/2023/03/Best-Teriyaki-Chicken-500x375.jpg",
         "ingredients": [
             "2 boneless, skinless chicken breasts",
             "1/2 cup soy sauce",
@@ -21,6 +22,7 @@
     {
         "name": "Pad Thai",
         "description": "A classic Thai stir-fried noodle dish with a perfect balance of flavors.",
+        "image": "https://hips.hearstapps.com/hmg-prod/images/pad-thai-index-6477629462a38.jpg?crop=0.6666666666666666xw:1xh;center,top&resize=1200:*",
         "ingredients": [
             "8 oz rice noodles",
             "2 tablespoons tamarind paste",
@@ -47,6 +49,7 @@
     {
         "name": "Bibimbap",
         "description": "A Korean mixed rice dish with vegetables, gochujang, and a fried egg.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/4/44/Dolsot-bibimbap.jpg",
         "ingredients": [
             "2 cups cooked short-grain rice",
             "1 cup spinach, blanched",
@@ -68,6 +71,7 @@
     {
         "name": "Tom Yum Soup",
         "description": "A spicy and sour Thai soup with shrimp, mushrooms, and herbs.",
+        "image": "https://i2.wp.com/seonkyounglongest.com/wp-content/uploads/2021/03/Tom-Yum-07-mini.jpg?fit=1000%2C667&ssl=1",
         "ingredients": [
             "4 cups chicken or vegetable broth",
             "1 lemongrass stalk, bruised",
@@ -92,6 +96,7 @@
     {
         "name": "Beef and Broccoli Stir-Fry",
         "description": "A savory Chinese stir-fry with tender beef and crisp broccoli.",
+        "image": "https://www.savingdessert.com/wp-content/uploads/2013/01/Beef-and-Broccoli-Stir-Fry-3.jpg",
         "ingredients": [
             "1 lb flank steak, thinly sliced",
             "2 cups broccoli florets",
@@ -115,6 +120,7 @@
     {
         "name": "Vietnamese Spring Rolls",
         "description": "Fresh and healthy Vietnamese spring rolls with shrimp, vegetables, and herbs.",
+        "image": "https://chickenwings.recipes/wp-content/uploads/2017/02/Others_022017_Vietnamese_Chicken_Spring_Rolls_500x350.jpg",
         "ingredients": [
             "Rice paper wrappers",
             "200g shrimp, cooked and peeled",
