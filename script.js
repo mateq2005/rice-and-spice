@@ -7,7 +7,7 @@ async function breakfast() {
         const response = await fetch('https://mateq2005.github.io/rice-and-spice/resources/recipes/breakfast.json')
         const data = await response.json();
 
-        users = data.map(recipe => {
+        recipes = data.map(recipe => {
             const card = recipeCardTemplate.content.cloneNode(true).children[0];
             const image = card.querySelector("[data-image]");
             const header = card.querySelector("[data-header]");
