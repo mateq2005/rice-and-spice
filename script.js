@@ -37,7 +37,7 @@ async function lunch() {
         const response = await fetch('https://mateq2005.github.io/rice-and-spice/resources/recipes/lunch.json')
         const data = await response.json();
 
-        users = data.map(recipe => {
+        recipes = data.map(recipe => {
             const card = recipeCardTemplate.content.cloneNode(true).children[0];
             const image = card.querySelector("[data-image]");
             const header = card.querySelector("[data-header]");
@@ -67,7 +67,7 @@ async function dinner() {
         const response = await fetch('https://mateq2005.github.io/rice-and-spice/resources/recipes/dinner.json')
         const data = await response.json();
 
-        users = data.map(recipe => {
+        recipes = data.map(recipe => {
             const card = recipeCardTemplate.content.cloneNode(true).children[0];
             const image = card.querySelector("[data-image]");
             const header = card.querySelector("[data-header]");
@@ -97,7 +97,7 @@ async function dessert() {
         const response = await fetch('https://mateq2005.github.io/rice-and-spice/resources/recipes/dessert.json')
         const data = await response.json();
 
-        users = data.map(recipe => {
+        recipes = data.map(recipe => {
             const card = recipeCardTemplate.content.cloneNode(true).children[0];
             const image = card.querySelector("[data-image]");
             const header = card.querySelector("[data-header]");
