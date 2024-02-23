@@ -1,14 +1,12 @@
 {
   "name": "rice-and-spice",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "sass-watch": "sass --no-source-map --watch scss/style.scss style.css"
   },
-  "keywords": [],
   "author": "mateq2005",
-  "license": "ISC",
+  "license": "https://mateq2005.github.io/mateq2005/LICENCE.md",
   "dependencies": {
     "sass": "^1.71.0"
   },
