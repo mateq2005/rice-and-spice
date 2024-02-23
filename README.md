@@ -1,4 +1,4 @@
-# Rice and Spice Kitchen 🍚🌶️
+# Rice and Spice 🍚🌶️
 
 ## Description
 - Welcome to Rice and Spice Kitchen, your online destination for a delightful journey through the flavors of Asian cuisine!
