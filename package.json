@@ -6,12 +6,8 @@
     "sass-watch": "sass --no-source-map --watch scss/style.scss style.css"
   },
   "author": "mateq2005",
-  "license": "https://mateq2005.github.io/mateq2005/LICENCE.md",
+  "license": "https://mateq2005.github.io/rice-and-spice/LICENCE.md",
   "dependencies": {
     "sass": "^1.71.0"
   },
-  "repository": {
-    "type": "github",
-    "url": "https://github.com/mateq2005/rice-and-spice"
-  }
 }
